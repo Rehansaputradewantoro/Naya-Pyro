@@ -29,7 +29,7 @@ BLACK = [995099715]
 def support():
     buttons = [
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ZoneDangerString"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ZoneDangerSex"),
         ],
         [
             InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
