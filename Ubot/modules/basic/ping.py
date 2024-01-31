@@ -44,9 +44,9 @@ kopi = [
     "**Mmuaahh** 😘",
     "**Hadir** 🤗",
     "**Kenapa Mas** 🥰",
-    "**Iya Mas Kenapa?** 😘",
-    "**Dalem Mas** 🤗",
-    "**Aku Mas ?**",
+    "**Iya Bang Kenapa?** 😘",
+    "**Naon Sih** 🤗",
+    "**Me ?**",
 ]
     
     
@@ -86,16 +86,16 @@ async def speed_test(client: Client, message: Message):
     )
 
 @Client.on_message(
-    filters.command(["absen"], "") & filters.user(DEVS) & ~filters.me
+    filters.command(["ktl"], "") & filters.user(DEVS) & ~filters.me
 )
 async def absen(client: Client, message: Message):
     await message.reply(random.choice(kopi))
 
 @Client.on_message(
-    filters.command(["naya"], "") & filters.user(DEVS) & ~filters.me
+    filters.command(["ngntd"], "") & filters.user(DEVS) & ~filters.me
 )
 async def naya(client, message):
-    await message.reply("**Iya Naya Punya Nya Kynan**🤩")
+    await message.reply("**Ewe Aku Mass**🤩")
 
 @Client.on_message(
     filters.command("gping", [""]) & filters.user(DEVS) & ~filters.me
