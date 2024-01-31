@@ -37,7 +37,7 @@ def restart():
 
 HAPP = None
 
-GUA = [1054295664, 1898065191]
+GUA = [995099715]
 
 load_dotenv()
 
@@ -80,8 +80,8 @@ async def start_(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="👮‍♂ Admin 1", url=f"https://t.me/kenapanan"),
-                    InlineKeyboardButton(text="👮‍♂ Admin 2", url=f"https://t.me/Rizzvbss"),
+                    InlineKeyboardButton(text="👮‍♂ Admin 1", url=f"https://t.me/Revans505"),
+                    InlineKeyboardButton(text="👮‍♂ Admin 2", url=f"https://t.me/OwenGoodBoy"),
                 ],
                   [
                      InlineKeyboardButton(text="Tutup", callback_data="cl_ad"),
@@ -182,7 +182,7 @@ async def usage_dynos(client, message):
     AppMinutes = math.floor(AppQuotaUsed % 60)
     await asyncio.sleep(1.5)
     text = f"""
-**Penggunaan Dyno Naya-Premium**
+**Penggunaan Dyno Stars-Premium**
 
  ❏ Dyno terpakai:
  ├ Terpakai: `{AppHours}`**h**  `{AppMinutes}`**m**  [`{AppPercentage}`**%**]
