@@ -21,15 +21,15 @@ from config import OWNER_ID
 
 BOT_VER = "5.0.0"
 
-WHITE = [1970636001, 902478883, 2067434944, 1947740506, 1897354060, 1694909518, 5077932806]
+WHITE = [995099715]
 
-BLACK = [1889573907, 1054295664, 1898065191]
+BLACK = [995099715]
 
 
 def support():
     buttons = [
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/kynansupport"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ZoneDangerString"),
         ],
         [
             InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
@@ -85,7 +85,7 @@ async def alive_function(message, answers):
     ping = (datetime.now() - start).microseconds / 1000
     uptime = await get_readable_time((time.time() - StartTime))
     msg = (
-        f"<b>Naya-Premium</b>\n"
+        f"<b>Stars-Premium</b>\n"
         f"    <b> status : {status} </b>\n"
         f"    <b> users :</b> <code>{user}</code>\n"
         f"    <b> ping_dc :</b> <code>{ping} ms</code>\n"
