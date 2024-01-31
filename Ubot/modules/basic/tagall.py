@@ -63,7 +63,7 @@ async def cancel_spam(client: Client, message: Message):
             spam_chats.remove(message.chat.id)
         except:
             pass
-        return await message.edit("**Berhasil membatalkan tagall.**")
+        return await message.edit("**Orang Gak Ada Tag All Bego.**")
 
 
 add_command_help(
