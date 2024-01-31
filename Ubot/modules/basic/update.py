@@ -225,7 +225,7 @@ async def upstream(client: Client, message: Message):
             repo.__del__()
             return
         await status.edit(
-            "`[HEROKU]: Naya-Pyro Premium Deploy Update is in Progress...`"
+            "`[HEROKU]: Stars-Pyro Premium Deploy Update is in Progress...`"
         )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -242,7 +242,7 @@ async def upstream(client: Client, message: Message):
         except GitCommandError:
             pass
         await status.edit(
-            "`Naya-Pyro Premium Successfully Updated! Userbot can be used again.`"
+            "`Stars-Pyro Premium Successfully Updated! Userbot can be used again.`"
         )
     else:
         try:
@@ -251,7 +251,7 @@ async def upstream(client: Client, message: Message):
             repo.git.reset("--hard", "FETCH_HEAD")
         await updateme_requirements()
         await status.edit(
-            "`Naya-Pyro Premium Successfully Updated! Userbot can be used again.`",
+            "`Stars-Pyro Premium Successfully Updated! Userbot can be used again.`",
         )
         args = [sys.executable, "-m", "Ubot"]
         execle(sys.executable, *args, environ)
@@ -318,7 +318,7 @@ async def updatees(client: Client, message: Message):
 add_command_help(
     "update",
     [
-        [f"cekupdate", "Cek Update Dari Naya-Pyro Premium."],
-        [f"update deploy", "Untuk Update Naya-Pyro Premium."],
+        [f"cekupdate", "Cek Update Dari Stars-Pyro Premium."],
+        [f"update deploy", "Untuk Update Stars-Pyro Premium."],
     ],
 )
