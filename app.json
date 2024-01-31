@@ -1,9 +1,9 @@
 {
-    "name": "Naya Pyro",
+    "name": "Stars Pyro",
     "description": "Nothing Speciall !!!.",
-    "logo": "https://telegra.ph//file/75acabea0a9cc6679c2d4.jpg",
+    "logo": "https://telegra.ph//file/49bce124f1cee050cdf4c.jpg",
     "keywords": ["telegram", "userbot", "pyrogram"],
-    "repository": "https://github.com/ayrizz/Naya-Pyro",
+    "repository": "https://github.com/Rehansaputradewantoro/Naya-Pyro",
     "stack": "container",
     "env": {
         "SESSION1": {
