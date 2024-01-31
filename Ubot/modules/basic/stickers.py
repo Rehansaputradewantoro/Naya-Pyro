@@ -32,11 +32,11 @@ from ubotlibs.ubot.utils import *
 
 
 babi= [
-    "Ijin nyolong banh..",
-    "Buset maling ah...",
-    "Sststststs Dor...",
-    "Woy, Ijin maling banh..",
-    "Minta dong banh ...",
+    "Ijin nyolong Mas..",
+    "Buset maling aah...",
+    "Sststststs Dor Mek...",
+    "Woy, Ijin maling bangsat..",
+    "Minta dong mek ...",
 ]
 
 @Client.on_message(filters.command(["pack"], "") & filters.me)
