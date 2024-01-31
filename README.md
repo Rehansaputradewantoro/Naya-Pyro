@@ -1,6 +1,6 @@
 <p align="center">
 
-<img src="https://telegra.ph//file/75acabea0a9cc6679c2d4.jpg">
+<img src="https://telegra.ph//file/49bce124f1cee050cdf4c.jpg">
 
 </p>
 
@@ -9,7 +9,7 @@
 
 ## Deploy on Heroku
 <h3 align="center">Click The Button</h3>
-<a href="https://dashboard.heroku.com/new?template=https://github.com/ayrizz/Naya-Pyro"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Rehansaputradewantoro/Naya-Pyro"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 
