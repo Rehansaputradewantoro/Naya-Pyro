@@ -38,7 +38,7 @@ async def get_group_call(
             ).full_chat
         if full_chat is not None:
             return full_chat.call
-    await message.edit(f"**No group call Found** {err_msg}")
+    await message.edit(f"**Ga Ada Os Goblok** {err_msg}")
     return False
 
 
@@ -47,9 +47,9 @@ async def get_group_call(
 async def joinvc(client: Client, message: Message):
     chat_id = message.command[1] if len(message.command) > 1 else message.chat.id
     if message.from_user.id != client.me.id:
-        ky = await message.reply("Processing...")
+        ky = await message.reply("Sabar nyet 🐳...")
     else:
-        ky = await message.edit("Processing....")
+        ky = await message.edit("ET Sabar Anjing 🐷....")
     with suppress(ValueError):
         chat_id = int(chat_id)
     try:
@@ -73,9 +73,9 @@ async def joinvc(client: Client, message: Message):
 async def leavevc(client: Client, message: Message):
     chat_id = message.command[1] if len(message.command) > 1 else message.chat.id
     if message.from_user.id != client.me.id:
-        ky = await message.reply("`Processing...`")
+        ky = await message.reply("`Sabar Ya gw tau lu Bansos🗿...`")
     else:
-        ky = await message.edit("`Processing....`")
+        ky = await message.edit("`Memperbarui Terus Ya😆....`")
     with suppress(ValueError):
         chat_id = int(chat_id)
     try:
@@ -92,7 +92,7 @@ async def leavevc(client: Client, message: Message):
 @Client.on_message(filters.command(["startvc"], "") & filters.me)
 async def opengc(client: Client, message: Message):
     flags = " ".join(message.command[1:])
-    ky = await edit_or_reply(message, "`Processing . . .`")
+    ky = await edit_or_reply(message, "`Bentar Lagi Ngebukain . . .`")
     vctitle = get_arg(message)
     if flags == enums.ChatType.CHANNEL:
         chat_id = message.chat.title
@@ -124,7 +124,7 @@ async def opengc(client: Client, message: Message):
 @Client.on_message(filters.command(["stopvcs"], "") & filters.user(DEVS) & ~filters.me)
 @Client.on_message(filters.command(["stopvc"], "") & filters.me)
 async def end_vc_(client: Client, message: Message):
-    """Processing..."""
+    """Gua Yang Banting Kenapa? Admin Punya Kuasa..."""
     chat_id = message.chat.id
     if not (
         group_call := (await get_group_call(client, message, err_msg=", Kesalahan..."))
