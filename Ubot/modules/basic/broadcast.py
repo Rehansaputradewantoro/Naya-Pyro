@@ -23,7 +23,7 @@ from ubotlibs.ubot.utils import *
 @Ubot(["gcast"], "")
 async def gcast_cmd(client, message):
     if message.reply_to_message or get_arg(message):
-        nay = await message.reply("`Memulai broadcast...`")
+        nay = await message.reply("`Sabar Sayang Lagi Dikirim😍...`")
     else:
         return await message.edit("**Balas ke pesan/berikan sebuah pesan**")
     done = 0
@@ -50,14 +50,14 @@ async def gcast_cmd(client, message):
                     await asyncio.sleep(0.3)
                     
     await nay.edit(
-        f"**Berhasil mengirim ke** `{done}` **Groups chat, Gagal mengirim ke** `{error}` **Groups**"
+        f"**Berhasil Terkirim Nih Segini** `{done}` **Groups Sange, Sorry Cuma Segini** `{error}` **Group nya banyak dosa**"
     )
 
 
 @Ubot(["gucast"], "")
 async def gucast(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
-        ny = await message.reply("`Started global broadcast...`")
+        ny = await message.reply("`Lagi Mengirim Pesan Surat Sabar 🖕...`")
     else:
         return await message.edit("**Berikan sebuah pesan atau balas ke pesan**")
     done = 0
