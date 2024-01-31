@@ -21,7 +21,7 @@ BOT_VER ="8.1.0"
 
 
 MSG_ON = """
-**Naya Premium Actived ✅**
+**Stars Premium Actived ✅**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ◉ **Versi** : `{}`
 ◉ **Phython** : `{}`
